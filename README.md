@@ -1,24 +1,36 @@
-JAVA_DECORATOR
+# ☕ JAVA_DECORATOR
 
-Proyecto en Java que implementa el patrón de diseño Decorator para agregar formatos a un texto, como negrita, subrayado y cursiva, sin modificar la clase original.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Decorator](https://img.shields.io/badge/Design_Pattern-Decorator-purple?style=for-the-badge)
 
-📂 Estructura del proyecto
-Archivo	Descripción
-Texto.java	Define la interfaz del texto.
-TextoPlano.java	Implementa un texto sin formato.
-DecoradorDeTexto.java	Clase base para agregar decoraciones al texto.
-Negrita	Agrega formato de negrita.
-Subrayado.java	Agrega formato de subrayado.
-Cursiva.java	Agrega formato de cursiva.
-Main.java	Ejecuta el ejemplo del patrón Decorator.
+## 📌 Descripción
+Proyecto en Java que implementa el patrón de diseño **Decorator** para agregar formatos de texto como negrita, cursiva y subrayado, sin modificar la clase original.
 
-🛠️ Tecnologías
-Java
-Programación orientada a objetos
-Patrón de diseño estructural Decorator
+## 📂 Estructura del proyecto
 
-▶️ Ejecución
-Abre el proyecto en IntelliJ IDEA, configura el JDK y ejecuta la clase Main.java.
+| Archivo | Descripción |
+|---|---|
+| `Texto.java` | Interfaz del texto. |
+| `TextoPlano.java` | Texto sin formato. |
+| `DecoradorDeTexto.java` | Clase base de los decoradores. |
+| `Negrita.java` | Aplica negrita. |
+| `Cursiva.java` | Aplica cursiva. |
+| `Subrayado.java` | Aplica subrayado. |
+| `Main.java` | Ejecuta el ejemplo. |
 
-🎯 Objetivo
-Comprender cómo agregar funcionalidades a un objeto de manera dinámica mediante decoradores, favoreciendo la reutilización y evitando modificar la implementación original.
+## 🛠️ Tecnologías
+- Java
+- Programación orientada a objetos (POO)
+- Patrón estructural Decorator
+
+## ▶️ Ejecución
+1. Abre el proyecto en IntelliJ IDEA.
+2. Configura el JDK.
+3. Ejecuta `Main.java`.
+
+## 🎯 Objetivo
+Comprender cómo agregar funcionalidades dinámicamente mediante decoradores, promoviendo la reutilización y la extensibilidad del código.
+
+---
+⭐ *Proyecto académico para aprender patrones de diseño en Java.*
+
